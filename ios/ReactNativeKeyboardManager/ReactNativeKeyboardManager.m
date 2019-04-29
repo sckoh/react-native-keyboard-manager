@@ -93,8 +93,8 @@ RCT_EXPORT_METHOD(setToolbarPreviousNextButtonEnable: (BOOL) enabled) {
 }
 
 RCT_EXPORT_METHOD(setPreventShowingBottomBlankSpace: (BOOL) enabled) {
-    if (debugging) RCTLogInfo(@"KeyboardManager.setPreventShowingBottomBlankSpace: %d", enabled);
-    [[IQKeyboardManager sharedManager] setPreventShowingBottomBlankSpace:enabled];
+    // if (debugging) RCTLogInfo(@"KeyboardManager.setPreventShowingBottomBlankSpace: %d", enabled);
+    // [[IQKeyboardManager sharedManager] setPreventShowingBottomBlankSpace:enabled];
 }
 
 RCT_EXPORT_METHOD(setEnableAutoToolbar: (BOOL) enabled) {
@@ -116,8 +116,8 @@ RCT_EXPORT_METHOD(shouldShowToolbarPlaceholder: (BOOL) enabled) {
 }
 
 RCT_EXPORT_METHOD(setShouldShowTextFieldPlaceholder: (BOOL) enabled) {
-    if (debugging) RCTLogInfo(@"KeyboardManager.setShouldShowTextFieldPlaceholder: %d", enabled);
-    [[IQKeyboardManager sharedManager] setShouldShowTextFieldPlaceholder:enabled];
+    // if (debugging) RCTLogInfo(@"KeyboardManager.setShouldShowTextFieldPlaceholder: %d", enabled);
+    // [[IQKeyboardManager sharedManager] setShouldShowTextFieldPlaceholder:enabled];
 }
 
 RCT_EXPORT_METHOD(setShouldShowToolbarPlaceholder: (BOOL) enabled) {
